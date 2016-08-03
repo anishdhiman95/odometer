@@ -1,13 +1,11 @@
 class Three {
 	public static int difference(int a,int b) {
-	 
 		int result = 0;
 		while(a!=b) {
 		    a = Two.next(a);
 		    result++;
 		}
 		return result;
-		
 	}
 	
 	public static int nextnth(int num,int n) {
@@ -27,6 +25,4 @@ class Three {
 	    }
 	    return num;
 	}
-	
-	
 }

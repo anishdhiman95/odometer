@@ -1,10 +1,6 @@
 class Three {
 	public static int difference(int a,int b) {
-	    if(a>b) {
-	        int temp = a;
-	        a = b;
-	        b = temp;
-	    }
+	 
 		int result = 0;
 		while(a!=b) {
 		    a = Two.next(a);

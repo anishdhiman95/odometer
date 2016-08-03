@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class One {
 
@@ -22,7 +20,7 @@ public class One {
 			case 2: 
 				System.out.println("Enter the reading-");
 				int i2= Integer.parseInt(inp.readLine());
-				System.out.println("The Next Reading is: " + Two.next(i2));
+				System.out.println("The Next Reading is: " + Two.prev(i2));
 				break;
 			case 3: 
 				System.out.println("Enter first reading-");
@@ -43,7 +41,7 @@ public class One {
 				int i7= Integer.parseInt(inp.readLine());
 				System.out.println("Enter the negative displacement-");
 				int i8= Integer.parseInt(inp.readLine());
-				System.out.println("The Difference is: " + Three.previousnth(i7,i8));
+				System.out.println("The Difference is: " + Three.prevnth(i7,i8));
 				break;	
 				
 		}

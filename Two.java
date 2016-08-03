@@ -1,8 +1,3 @@
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 class Two
 {
 	public static int next(int num) {
